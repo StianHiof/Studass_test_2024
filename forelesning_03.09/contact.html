@@ -44,6 +44,51 @@
                 <h2>Kontakt oss</h2>
                 <!-- Overskrift som indikerer at denne seksjonen handler om kontakt -->
             </section>
+            <section>
+                <h2>Ta kontakt med oss i dag</h2>
+                <form method="post" action="">
+                    <label for="navn">Navn:</label>
+                    <input id="navn" type="text" name="navn" placeholder="Ola Nordmann" maxlength="50" required>
+
+                    <label>
+                        E-post:
+                        <input type="email" name="email" placeholder="stian@hiof.no">
+                    </label>
+
+                    <label>
+                        Emne:
+                        <input type="text" name="emne" placeholder="Hva handler det om?">
+                    </label>
+
+                    <label>
+                        Melding:
+                        <textarea name="melding" required></textarea>
+                    </label>
+
+                    <label>
+                        Nei
+                        <input type="radio" name="valg"> 
+                    </label>
+
+                    <label>
+                        Ja
+                        <input type="radio" name="valg"> 
+                    </label>
+
+                    <label>
+                        Favoritt mat
+                        <select name="fav">
+                            <option value="Pizza">Pizza</option>
+                            <option value="Pai">Pai</option>
+                            <option value="Pasta">Pasta</option>
+                        </select>
+                    </label>
+
+                    <input type="submit" value="Send melding">
+
+
+                </form>
+            </section>
         </main>
         <footer>
             <!-- Footer-seksjonen nederst på siden -->
