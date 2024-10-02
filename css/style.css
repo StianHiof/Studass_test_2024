@@ -1,0 +1,65 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+}
+
+body main {
+    max-width: 70%;
+}
+
+#header_bilde {
+    background-image: url("..//img/Supra_FreeTrak.png");
+    background-size: cover;
+    padding: 5rem;
+}
+
+#header_bilde h1 {
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+#meny {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 2rem;
+    width: 100%;
+}
+
+#meny li a:hover {
+    color: cyan;
+}
+
+#services {
+    display: flexbox;
+    max-width: 100%;
+    min-width: 400px;
+    flex-wrap: wrap;
+}
+
+#services article {
+    max-width: 400px;
+    min-width: 300px;
+    padding: 2rem;
+    box-shadow: 5px 5px 5px darkgray;
+}
+
+#services h2 {
+    padding: 30px;
+}
+
+
+#side_info {
+    display: flexbox;
+    flex-basis: auto;
+    flex-direction: column;
+    min-width: 350px;
+    max-width: 30%;
+}
+
+
+
+
+
+
